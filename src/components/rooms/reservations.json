@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_rooms_reservations",
+  "info": {
+    "displayName": "Reservations",
+    "icon": "allergies"
+  },
+  "options": {},
+  "attributes": {
+    "Approved": {
+      "type": "boolean"
+    },
+    "date_requested": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::reservation.reservation"
+    }
+  }
+}

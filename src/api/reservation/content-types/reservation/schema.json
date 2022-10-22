@@ -1,0 +1,135 @@
+{
+  "kind": "collectionType",
+  "collectionName": "reservations",
+  "info": {
+    "singularName": "reservation",
+    "pluralName": "reservations",
+    "displayName": "Reservation",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "event": {
+      "type": "enumeration",
+      "enum": [
+        "Assembly",
+        "Bazaar",
+        "Bible Study",
+        "Birthday celebration",
+        "Campaign",
+        "Cantata",
+        "Canteen / Cafeteria",
+        "Child dedication",
+        "Christmas party",
+        "Class",
+        "Concert",
+        "Conference",
+        "Counseling",
+        "Devotion",
+        "Discipleship",
+        "Egress",
+        "Evangelistic event",
+        "Event promotion",
+        "Examination",
+        "Fellowship",
+        "Flag ceremonies",
+        "Foundation day",
+        "Funeral / Wake",
+        "Graduation ceremonies",
+        "Growth Group Meeting",
+        "Holding area",
+        "Ingress / Set-up",
+        "Library",
+        "Medical / Dental",
+        "Meeting",
+        "Membership interview",
+        "Memorial service",
+        "Mentoring",
+        "Midweek service",
+        "Moving-up ceremonies",
+        "Musical event",
+        "Office",
+        "Orientation",
+        "Others",
+        "Performance",
+        "Photo / Video shoot",
+        "Play",
+        "Prayer session",
+        "Rehearsal",
+        "Renovation / Repair",
+        "Review class",
+        "School event",
+        "School guild",
+        "School varsity",
+        "Seminar",
+        "Sports activity",
+        "Sunday school",
+        "Support group",
+        "Team building",
+        "Technical rehearsal",
+        "Thanksgiving event",
+        "Training",
+        "Water baptism",
+        "Wedding ceremonies",
+        "Wedding reception",
+        "Workshop",
+        "Worship service"
+      ]
+    },
+    "reserved_for": {
+      "type": "enumeration",
+      "enum": [
+        "BSF",
+        "Canteen Concessionaire",
+        "Children's Ministry",
+        "Church Governance",
+        "Communications/M3",
+        "Discipleship Ministry",
+        "DMR",
+        "Evangelizing Ministry",
+        "Facilities",
+        "Finance",
+        "Growth Group Ministry",
+        "HR",
+        "ICS",
+        "IT",
+        "Library",
+        "OSP",
+        "Others",
+        "Pastoral Care & Counseling",
+        "SMD",
+        "Worship Ministry",
+        "WOW-CBSI",
+        "Youth Ministry",
+        "Third Party"
+      ]
+    },
+    "number_of_attendees": {
+      "type": "integer"
+    },
+    "type_of_reservation": {
+      "type": "enumeration",
+      "enum": [
+        "Ministry Use",
+        "Subsidise",
+        "Ex-Deal",
+        "Rented"
+      ]
+    },
+    "reservation_date_start": {
+      "type": "date"
+    },
+    "reservation_date_end": {
+      "type": "date"
+    },
+    "reservation_time_start": {
+      "type": "time"
+    },
+    "reservation_time_end": {
+      "type": "time"
+    }
+  }
+}
