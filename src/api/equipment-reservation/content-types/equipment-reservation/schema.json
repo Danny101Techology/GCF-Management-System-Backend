@@ -1,0 +1,36 @@
+{
+  "kind": "collectionType",
+  "collectionName": "equipment_reservations",
+  "info": {
+    "singularName": "equipment-reservation",
+    "pluralName": "equipment-reservations",
+    "displayName": "EquipmentReservation"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "type_of_reservation": {
+      "type": "enumeration",
+      "enum": [
+        "Ministry Use",
+        "Subsidise",
+        "Ex-Deal",
+        "Rented"
+      ]
+    },
+    "equip_categories": {
+      "type": "enumeration",
+      "enum": [
+        "Cafeteria Supplies",
+        "Equipment",
+        "Food Arrangement",
+        "Office Supplies"
+      ]
+    },
+    "rented_cost": {
+      "type": "integer"
+    }
+  }
+}

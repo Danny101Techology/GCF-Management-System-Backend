@@ -4,45 +4,22 @@
   "info": {
     "singularName": "equipment",
     "pluralName": "equipments",
-    "displayName": "Equipments"
+    "displayName": "Equipments",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
   },
   "pluginOptions": {},
   "attributes": {
-    "reservation_date_start": {
-      "type": "date"
+    "equipments": {
+      "type": "string"
     },
-    "reservation_time_start": {
-      "type": "date"
+    "equipment_subtype": {
+      "type": "string"
     },
-    "reservation_date_end": {
-      "type": "date"
-    },
-    "reservation_time_end": {
-      "type": "time"
-    },
-    "type_of_reservation": {
-      "type": "enumeration",
-      "enum": [
-        "Ministry Use",
-        "Subsidise",
-        "Ex-Deal",
-        "Rented"
-      ]
-    },
-    "rented_cost": {
-      "type": "integer"
-    },
-    "equip_categories": {
-      "type": "enumeration",
-      "enum": [
-        "Cafeteria Supplies",
-        "Equipment",
-        "Food Arrangement",
-        "Office Supplies"
-      ]
+    "equipment_type": {
+      "type": "string"
     }
   }
 }

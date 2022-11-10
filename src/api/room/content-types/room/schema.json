@@ -21,9 +21,6 @@
     "capacity": {
       "type": "integer"
     },
-    "rate_per_hour": {
-      "type": "integer"
-    },
     "site": {
       "type": "string"
     },
