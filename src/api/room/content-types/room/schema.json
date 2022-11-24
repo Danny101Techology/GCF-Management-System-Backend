@@ -24,7 +24,10 @@
     "site": {
       "type": "string"
     },
-    "room_pic": {
+    "room_name": {
+      "type": "string"
+    },
+    "images": {
       "type": "media",
       "multiple": true,
       "required": false,
@@ -34,9 +37,6 @@
         "videos",
         "audios"
       ]
-    },
-    "room_name": {
-      "type": "string"
     }
   }
 }
