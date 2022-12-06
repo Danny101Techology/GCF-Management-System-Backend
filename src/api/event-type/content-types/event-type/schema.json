@@ -4,7 +4,8 @@
   "info": {
     "singularName": "event-type",
     "pluralName": "event-types",
-    "displayName": "EventType"
+    "displayName": "EventType",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -12,6 +13,9 @@
   "pluginOptions": {},
   "attributes": {
     "name": {
+      "type": "string"
+    },
+    "reserved": {
       "type": "string"
     }
   }
