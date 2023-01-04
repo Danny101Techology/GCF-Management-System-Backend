@@ -4,7 +4,7 @@
   "info": {
     "singularName": "room-reservation",
     "pluralName": "room-reservations",
-    "displayName": "RoomReservation",
+    "displayName": "RoomsReservation",
     "description": ""
   },
   "options": {
@@ -13,24 +13,28 @@
   "pluginOptions": {},
   "attributes": {
     "room_code": {
-      "type": "relation",
-      "relation": "oneToOne",
-      "target": "api::room.room"
+      "type": "string"
     },
     "room_name": {
-      "type": "relation",
-      "relation": "oneToOne",
-      "target": "api::room.room"
+      "type": "string"
     },
-    "site": {
-      "type": "relation",
-      "relation": "oneToOne",
-      "target": "api::room.room"
+    "email": {
+      "type": "email"
+    },
+    "startingdatetime": {
+      "type": "datetime"
+    },
+    "endingdatetime": {
+      "type": "datetime"
+    },
+    "fullname": {
+      "type": "string"
+    },
+    "reservation_type": {
+      "type": "string"
     },
     "event_type": {
-      "type": "relation",
-      "relation": "oneToOne",
-      "target": "api::event-type.event-type"
+      "type": "string"
     }
   }
 }
