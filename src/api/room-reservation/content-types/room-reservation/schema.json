@@ -4,7 +4,7 @@
   "info": {
     "singularName": "room-reservation",
     "pluralName": "room-reservations",
-    "displayName": "RoomsReservation",
+    "displayName": "RoomReservation",
     "description": ""
   },
   "options": {
@@ -21,19 +21,19 @@
     "email": {
       "type": "email"
     },
-    "startingdatetime": {
+    "dateStart": {
       "type": "datetime"
     },
-    "endingdatetime": {
+    "dateEnd": {
       "type": "datetime"
     },
-    "fullname": {
+    "fullName": {
       "type": "string"
     },
-    "reservation_type": {
+    "reservedFor": {
       "type": "string"
     },
-    "event_type": {
+    "eventType": {
       "type": "string"
     }
   }

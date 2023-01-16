@@ -14,9 +14,6 @@
   "attributes": {
     "name": {
       "type": "string"
-    },
-    "reserved": {
-      "type": "string"
     }
   }
 }
