@@ -12,7 +12,7 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "equipments": {
+    "equipment_name": {
       "type": "string"
     },
     "equipment_subtype": {
