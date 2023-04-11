@@ -1,0 +1,39 @@
+{
+  "kind": "collectionType",
+  "collectionName": "room_approveds",
+  "info": {
+    "singularName": "room-approved",
+    "pluralName": "room-approveds",
+    "displayName": "RoomApproved"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "room_code": {
+      "type": "string"
+    },
+    "room_name": {
+      "type": "string"
+    },
+    "email": {
+      "type": "email"
+    },
+    "dateStart": {
+      "type": "datetime"
+    },
+    "dateEnd": {
+      "type": "datetime"
+    },
+    "fullName": {
+      "type": "string"
+    },
+    "reservedFor": {
+      "type": "string"
+    },
+    "eventType": {
+      "type": "string"
+    }
+  }
+}
