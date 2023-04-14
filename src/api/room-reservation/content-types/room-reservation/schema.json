@@ -35,6 +35,18 @@
     },
     "eventType": {
       "type": "string"
+    },
+    "things_needed": {
+      "type": "string"
+    },
+    "physical_arragements": {
+      "type": "string"
+    },
+    "food_arrangements": {
+      "type": "string"
+    },
+    "cafeteria_supplies": {
+      "type": "string"
     }
   }
 }
