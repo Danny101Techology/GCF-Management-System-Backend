@@ -4,7 +4,8 @@
   "info": {
     "singularName": "room-approved",
     "pluralName": "room-approveds",
-    "displayName": "RoomApproved"
+    "displayName": "RoomApproved",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -33,6 +34,18 @@
       "type": "string"
     },
     "eventType": {
+      "type": "string"
+    },
+    "things_needed": {
+      "type": "string"
+    },
+    "physical_arrangements": {
+      "type": "string"
+    },
+    "food_arrangements": {
+      "type": "string"
+    },
+    "cafeteria_supplies": {
       "type": "string"
     }
   }
