@@ -1,10 +1,10 @@
 {
   "kind": "collectionType",
-  "collectionName": "equipment_reservations",
+  "collectionName": "equipment_statuses",
   "info": {
-    "singularName": "equipment-reservation",
-    "pluralName": "equipment-reservations",
-    "displayName": "EquipmentReservation",
+    "singularName": "equipment-status",
+    "pluralName": "equipment-statuses",
+    "displayName": "EquipmentStatus",
     "description": ""
   },
   "options": {
@@ -21,13 +21,11 @@
     "equipment_subtype": {
       "type": "string"
     },
-    "upload": {
-      "type": "media",
-      "multiple": true,
-      "required": true,
-      "allowedTypes": [
-        "files"
-      ]
+    "date_returned": {
+      "type": "datetime"
+    },
+    "date_borrowed": {
+      "type": "datetime"
     },
     "fullName": {
       "type": "string"
